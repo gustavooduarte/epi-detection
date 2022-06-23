@@ -6,10 +6,10 @@ O setor de construção civil possui uma quantidade muito grande de pessoas empr
 
 ## Dependências
 ```
-opencv =>   sudo apt-get install python-opencv
-argparse => pip install argparse
-numpy =>    pip install numpy
-imutils =>  pip install imutils
+sudo apt-get install python-opencv
+pip install argparse
+pip install numpy
+pip install imutils
 ```
 
 ## Execução do programa
@@ -19,11 +19,11 @@ prog -m modo -v video
 ### Operações possiveis:
 **1. Execução em tempo real**
 ```
-    python main.py -m webcam
+python main.py -m webcam
 ```
 **2. Executando com vídeo**
 ```
-    python main.py -m video -v video/video_teste.mp4
+python main.py -m video -v video/video_teste.mp4
 ```
 
 ## Dataset
